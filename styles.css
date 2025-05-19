@@ -3,9 +3,13 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 40px;
-  background-color: #f9f9f9;
+  background-color: #abfabf;
   color: #333;
   line-height: 1.6;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2tPcPF8MOpAa_cnefJpxzS6QBcsosWFpBjg&s');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 h1 {
@@ -62,6 +66,8 @@ hr {
 strong {
   color: #212121;
 }
+
+
 
 @media screen and (max-width: 768px) {
   body {
