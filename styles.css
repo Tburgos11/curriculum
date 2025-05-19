@@ -12,6 +12,7 @@ h1 {
   font-size: 2.5em;
   color: #1a237e;
   margin-bottom: 5px;
+  text-align: center
 }
 
 h2 {
@@ -33,7 +34,12 @@ ul {
   padding-left: 20px;
 }
 
-p, li {
+p {
+  font-size: 1em;
+  text-align: center
+}
+
+li{
   font-size: 1em;
 }
 

@@ -10,8 +10,9 @@
 </head>
 <body>
     <header>
-        <h1>Thomas Burgos</h1>
-        <p> tjburgos@espol.edu.ec |  0968260641 |  <a href="#">LinkedIn Profile</a></p>
+        <h1 class="centrado">Thomas Burgos</h1>
+        <img src="FOTO.jpg" alt="Foto de Thomas Burgos" width="150" height="150" style="display:block; margin: 0 auto; border-radius: 50%;">
+        <p class="centrado"> tjburgos@espol.edu.ec |  0968260641 |  <a href="#">LinkedIn Profile</a></p>
         <ul>
             <li><a href="#Resumen">Resumen</a></li>
             <li><a href="#Habilidades">Habilidades</a></li>
@@ -20,14 +21,14 @@
             <li><a href="#Certificaciones">Certificaciones</a></li>
             <li><a href="#Proyectos">Proyectos</a></li>
             <li><a href="#Referencias">Referencias</a></li>
-            
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Kse38UhOFwU?si=PBAWpMfys-pIqtbn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </ul>
     </header>
 
   <hr>
     <main>
         <h2>Resumen</h2>
-        <p>Soy una persona trabajadora, organizada y responsable. Tengo varios años de preparación en programación y computación. Me considero resolutivo, con buen ánimo y capaz de enfrentar problemas con pensamiento lógico y habilidades analíticas.</p>
+        <li>Soy una persona trabajadora, organizada y responsable. Tengo varios años de preparación en programación y computación. Me considero resolutivo, con buen ánimo y capaz de enfrentar problemas con pensamiento lógico y habilidades analíticas.</li>
 
         <h2>Habilidades</h2>
         <h3>Hard Skills</h3>
@@ -63,7 +64,7 @@
 
         <h2>Experiencia</h2>
         <h3>Colegio de Contadores de Guayaquil</h3>
-        <p><strong>Auxiliar Contable & Experto en Excel</strong></p>
+        <li><strong>Auxiliar Contable & Experto en Excel</strong></li>
         <ul>
             <li>Análisis de estados financieros</li>
             <li>Automatización de tareas en Excel con macros</li>
@@ -73,6 +74,7 @@
         <h2>Educación</h2>
         <ul>
             <li><strong>Escuela Superior Politécnica del Litoral (ESPOL)</strong> Cursando el 6º semestre de Ingeniería en Computación</li>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d31896.154225913808!2d-79.96702721459147!3d-2.146303722821972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sgoogle%20maps%20espol!5e0!3m2!1ses-419!2sec!4v1747679619005!5m2!1ses-419!2sec" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             <li><strong>Unidad Educativa Liceo Naval de Guayaquil</strong> Bachiller en Ciencias</li>
         </ul>
 
@@ -96,6 +98,17 @@
             <li><strong>Ing. Andrea Tamayo García</strong> 0989146832</li>
             <li><strong>Ing. Ricardo Villarreal Carrión</strong>, Gerente de RV Publicidad 0981303252</li>
         </ul>
+
+        <h2>Contacto</h2>
+<form action="mailto:tjburgos@espol.edu.ec" method="POST" enctype="text/plain">
+    <label for="nombre">Nombre:</label><br>
+    <input type="text" id="nombre" name="nombre" required><br><br>
+    <label for="correo">Correo electrónico:</label><br>
+    <input type="email" id="correo" name="correo" required><br><br>
+    <label for="mensaje">Mensaje:</label><br>
+    <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+    <button type="submit">Enviar</button>
+</form>
     </main> 
     <footer>
         <p>&copy; 2023 Thomas Burgos. Todos los derechos reservados.</p>
